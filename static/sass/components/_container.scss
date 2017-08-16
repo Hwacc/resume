@@ -101,16 +101,21 @@
     				}
 
     				.info-content{
-    					
+    					padding-left:0px;
 						li{
 							list-style: circle;
 							margin: 0;
+						.info-ul{
+							padding-left:0px;
+								&>li{
+									margin-left:1.2rem;
+									list-style:circle;
+								}
+							}
 						}
 						.fa{
 							font-size: 1em;
 						}
-
-    					
     				}
 
     			}
