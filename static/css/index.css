@@ -98,6 +98,14 @@ body {
 .container .main .info-unit ul li .info-content li .info-ul {
   padding-left: 0px;
 }
+.container .main .info-unit ul li .info-content li .info-ul .link {
+  font-size: .5rem;
+  border: 1px solid #4db6ac;
+  padding: 1px 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: .5rem;
+}
 .container .main .info-unit ul li .info-content li .info-ul > li {
   margin-left: 1.2rem;
   list-style: circle;
